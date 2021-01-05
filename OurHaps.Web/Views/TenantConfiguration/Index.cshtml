@@ -1,0 +1,8 @@
+﻿@model TenantConfigurationViewModel
+
+@using (Html.BeginForm("", ""))
+{
+    @Html.EditorFor(m => m.Name)
+
+    <input type="submit" name="SaveButton" value="Save" />
+}
